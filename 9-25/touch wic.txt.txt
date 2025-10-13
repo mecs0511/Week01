@@ -1,0 +1,15 @@
+git config --global user.name "monumentalpresidential"
+git config --global user.email "233160212+mecs0511@users.noreply.github.com"
+
+
+
+
+
+
+echo "# 9-23-25_Class7-1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/mecs0511/9-23-25_Class7-1.git
+git push -u origin main
